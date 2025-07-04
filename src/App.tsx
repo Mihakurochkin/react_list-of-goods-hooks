@@ -85,7 +85,6 @@ export const App = () => {
           })}
           onClick={() => {
             setIsReversed(!isReversed);
-
           }}
         >
           Reverse
@@ -98,7 +97,6 @@ export const App = () => {
               button: true,
               'is-danger': true,
               'is-light': true,
-              iframe: true,
             })}
             onClick={() => {
               setSortType(SortType.none);
